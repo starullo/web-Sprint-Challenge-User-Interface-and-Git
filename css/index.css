@@ -86,7 +86,7 @@ header nav img {
     margin-top: .8%;
 }
 
-header a {
+header  a {
     display: inline-block;
     background-color: white;
     color: black;
@@ -99,7 +99,7 @@ header > img {
     margin: 1% auto 0 auto;
 }
 
-/* main */
+/* Future/Past text area */
 
 .container {
     width: 80%;
@@ -113,7 +113,6 @@ header > img {
     margin-bottom: 20px;
     border-bottom: 2px dashed black;
     width: 100%;
-    font-size: 1.3rem;
 }
 
 h2 {
@@ -126,7 +125,13 @@ h2 {
     padding-bottom: 3.5%;
 }
 
-/* box area */
+.text-container p {
+    font-size: 1.4rem;
+}
+
+
+
+/* Colored box area */
 
 .middle-content {
     margin-top: 4%;
@@ -146,8 +151,8 @@ h2 {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
+    width: 12%;
+    height: 16vh;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -195,20 +200,21 @@ h2 {
     background-color: dodgerblue;
 }
 
-/* bottom area */
+/* That's no moon text area */
 
 .bottom-content {
     display: flex;
     margin: 3.5% 2% 3.5%;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.bottom-content h2 {
+    margin-bottom: 7%;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
-}
-
-.text-container p {
-    font-size: 1.5rem;
+    width: 33%;
 }
 
 .bottom-content .text-container:last-child {
@@ -222,6 +228,7 @@ footer {
     background: black;
 }
 
+/* Footer links*/
 footer nav {
     width: 60%;
     display: flex;
