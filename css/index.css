@@ -4,6 +4,7 @@
    License: none (public domain)
 */
 
+/* Reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -67,19 +68,22 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
+/* header */
 
 header {
     text-align: center;
 }
-header div {
+header nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 10vh;
+    margin: 1% 2% 0 1%;
+}
+
+header nav img {
+    align-self: flex-start;
+    margin-top: .8%;
 }
 
 header a {
@@ -87,41 +91,52 @@ header a {
     background-color: white;
     color: black;
     text-decoration: none;
+    font-size: 1.3rem;
 }
 
 header > img {
     width: 80%;
-    margin: auto;
+    margin: 1% auto 0 auto;
+}
+
+/* main */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .top-content {
     display: flex;
     justify-content: space-between;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px dashed black;
     width: 100%;
     font-size: 1.3rem;
 }
 
 h2 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 .top-content .text-container {
     width:75%;
     padding: 0 1%;
-    padding-bottom: 20px; 
+    padding-bottom: 3.5%;
 }
 
+/* box area */
+
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-top: 4%;
+    border-bottom: 2px dashed black;
+    padding-bottom: 2%;
 }
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-bottom: 2%;
 }
 
 .middle-content .boxes {
@@ -179,9 +194,12 @@ h2 {
 .boxes div:nth-child(10) {
     background-color: dodgerblue;
 }
+
+/* bottom area */
+
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 3.5% 2% 3.5%;
     justify-content: space-around;
 }
 
@@ -197,6 +215,8 @@ h2 {
     padding-right: 0;
 }
 
+/* footer */
+
 footer {
     width: 100%;
     background: black;
@@ -208,10 +228,11 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 1.3rem;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 1.5%;
 }
