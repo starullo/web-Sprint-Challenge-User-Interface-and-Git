@@ -4,7 +4,6 @@
    License: none (public domain)
 */
 
-/* Reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -99,147 +98,101 @@ header > img {
     margin: 1% auto 0 auto;
 }
 
-/* Future/Past text area */
+/* about h1 section */
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.top-content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5%;
-    margin-bottom: 20px;
-    border-bottom: 2px dashed black;
-    width: 100%;
-}
-
-h2 {
+h1 {
     font-size: 1.6rem;
+    margin: 0 0 2% 2%;
 }
 
-.top-content .text-container {
-    width:75%;
-    padding: 0 1%;
-    padding-bottom: 3.5%;
+.about-h1 {
+    width: 79%;
+    margin: 4% auto 2% auto;
+    border-bottom: dashed 2px black;
 }
 
-.text-container p {
+.about-h1 p {
+    padding-bottom: 2%;
+    margin: 0 0 2% 2%;
     font-size: 1.4rem;
 }
 
-
-
-/* Colored box area */
-
-.middle-content {
-    margin-top: 4%;
-    border-bottom: 2px dashed black;
-    padding-bottom: 2%;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 2%;
-}
-
-.middle-content .boxes {
+/* main content/flexbox area */
+ 
+.flex-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    width: 78%;
+    margin: 1% auto;
     justify-content: space-evenly;
+    align-content: space-between;
 }
 
-.middle-content .boxes .box {
-    width: 12%;
-    height: 16vh;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.flex-div {
+    width: 45%;
+    border-bottom: dashed black 2px;
+    margin: 2% auto;
 }
 
-.boxes div:nth-child(1) {
-    background-color: teal;
+.flex-div img {
+    width: 99%;
+    margin-bottom: 5%;
 }
 
-.boxes div:nth-child(2) {
-    background-color: gold;
+.flex-div h2 {
+    font-size: 1.6rem;
+    margin-bottom: 5%;
 }
 
-.boxes div:nth-child(3) {
-    background-color:cadetblue;
+.flex-div p {
+    font-size: 1.3rem;
+    margin-bottom: 5%;
 }
 
-.boxes div:nth-child(4) {
-    background-color:coral;
+.flex-div a {
+    display: inline-block;
+    border: solid black 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 2% 3%;
+    font-size: 1.3rem;
+    margin-bottom: 5%;
 }
 
-.boxes div:nth-child(5) {
-    background-color: crimson;
+.main-bottom {
+    width: 75%;
+    margin: 2% auto;
 }
 
-.boxes div:nth-child(6) {
-    background-color: forestgreen; 
+.main-bottom h2 {
+    font-size: 1.6rem;
 }
 
-.boxes div:nth-child(7) {
-    background-color: darkorchid
-} 
-
-.boxes div:nth-child(8) {
-    background-color: hotpink;
-}
-
-.boxes div:nth-child(9) {
-    background-color: indigo;
-}
-
-.boxes div:nth-child(10) {
-    background-color: dodgerblue;
-}
-
-/* That's no moon text area */
-
-.bottom-content {
-    display: flex;
-    margin: 3.5% 2% 3.5%;
-    justify-content: space-between;
-}
-
-.bottom-content h2 {
-    margin-bottom: 7%;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-    width: 33%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.main-bottom p {
+    font-size: 1.3rem;
 }
 
 /* footer */
 
+
 footer {
-    width: 100%;
+    width: 75%;
     background: black;
+    margin: 3% auto 0 auto;
 }
 
-/* Footer links*/
 footer nav {
-    width: 60%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 1.3rem;
+    font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
-    padding: 1.5%;
+    font-size: 1.3rem;
+    padding: 1%;
+    margin: 0 2%;
 }
